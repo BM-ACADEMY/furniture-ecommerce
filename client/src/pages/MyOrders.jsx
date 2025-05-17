@@ -605,16 +605,7 @@ const MyOrders = () => {
           >
             Close
           </Button>
-          {!selectedOrder?.isCancelled && (
-            <Button 
-            color="success"
-              onClick={() => handleOpenTrackingModal(selectedOrder)}
-              startIcon={<Truck size={18} />}
-              sx={{ ml: 1 }}
-            >
-              Track Order
-            </Button>
-          )}
+          
         </DialogActions>
       </Dialog>
     </div>
